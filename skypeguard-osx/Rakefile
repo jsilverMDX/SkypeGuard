@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+$:.unshift("/Library/RubyMotion/lib")
+require 'motion/project/template/osx'
+
+begin
+  require 'bundler'
+  Bundler.require
+rescue LoadError
+end
+
+Motion::Project::App.setup do |app|
+  # Use `rake config' to see complete project settings.
+  app.identifier = 'com.op2600.skypeguard'
+  app.name = 'SkypeGuard'
+  app.icon = 'appicon.icns'
+  app.version = "1.4"
+  app.copyright = 'Copyright © 2015 op2600 All rights reserved.'
+  app.entitlements['com.apple.security.app-sandbox'] = true
+  app.codesign_for_release = false
+end
