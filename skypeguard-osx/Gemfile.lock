@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/jsilvermdx/whitepotion.git
-  revision: e166a0a98402878d20a5ae3698f226bb4a0b6e75
+  remote: git://github.com/infinitered/whitepotion.git
+  revision: 10b2f4b4324242867cb6ce7bcc9337dd49e1748c
   specs:
     whitepotion (0.0.4)
       MotionLocalize
