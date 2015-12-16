@@ -1,10 +1,8 @@
-skypeguard.rb - regular Ruby (not RubyMotion) version of SkypeGuard (no link blocking and no gui)
-
-data.pstore - holds white listed handles for the ruby script.
+skypeguard-ruby/ - Ruby version, no link blocking
 
 skypeguard-osx/ - RubyMotion app for OS X
 
-INSTALL - how to run it
+INSTALL - how to get it running
 
 CONTENTS - this file
 
