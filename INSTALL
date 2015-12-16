@@ -1,6 +1,7 @@
 INSTALL
 
-(App requires Skype and it to be running to function)
+For it to work, Skype must be running.
+First run will require it to be authorized as an API client in the Skype app.
 
 
 Ruby script:
