@@ -1,0 +1,24 @@
+INSTALL
+
+(App requires Skype and it to be running to function)
+
+
+Ruby script:
+
+Install Ruby (official version, 2.2+)
+
+Install "skype" and "active_support" gem
+
+Run with "ruby skypeguard.rb"
+
+Whitelist handles by editing @whitelist array
+
+
+
+RubyMotion app:
+
+Install RubyMotion (not starter edition unfortunately... sorry)
+
+"bundle install"
+
+"rake"
